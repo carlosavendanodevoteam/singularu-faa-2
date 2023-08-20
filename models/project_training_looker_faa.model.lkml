@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "connection_training_looker_faa"
+connection: "training-faa"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -34,4 +34,3 @@ explore: aircraft_models {}
 explore: carriers {}
 
 explore: aircraft {}
-
